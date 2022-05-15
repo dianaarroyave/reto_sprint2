@@ -1,0 +1,41 @@
+.header {
+    padding: 10px 16px;
+    background-image: url("../");
+    background-size: 100% 100%;
+}
+
+.header__title {
+    font-family: var(--secondaryFont);
+    color: var(--white);
+    font-weight: var(--sm);
+}
+
+.filtersBox {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 0px;
+    border-radius: 8px;
+    background-color: rgba(228, 228, 228, 0.9);;
+}
+
+.filtersBox__country {
+    width: calc(90% + 8px)
+}
+
+.filtersBox__input {
+    width: 45%;
+}
+
+.filtersBox__btn {
+    width: 60px;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+    color: var(--white);
+    background-color: #333333E0;
+    margin-left: 73%;
+}
+

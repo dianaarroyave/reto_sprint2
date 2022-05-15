@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+    --primaryFont: 'Roboto', sans-serif;
+    --secondaryFont:'Pacifico', cursive;
+    --thirdFont: 'Dancing Script', cursive;
+    --sm: 400px;
+    --md: 500px;
+    --lg: 700px;
+    --white: #FFFFFF; 
+}
+
+.input {
+    height: 30px;
+    border: none;
+    outline: none;
+}
